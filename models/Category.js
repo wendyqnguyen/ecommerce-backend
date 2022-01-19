@@ -12,23 +12,10 @@ Category.init(
       primaryKey: true,
       autoIncrement: true
     },
-    productname: {
+    category_name: {
       type: DataTypes.STRING,
       allowNull: false
-    },
-    price: {
-      type: DataTypes.FLOAT,
-      allowNull: false,
-      validate: {
-        isFloat: true
-      }
-    },
-    stock  {
-      tpe: DataTypes.INTEGER,
-      allowNull: false,
-      defaultValue: 10,
-      validate:
-        isInt: true
+    }
   },
   {
     sequelize,
