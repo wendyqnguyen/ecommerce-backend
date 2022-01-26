@@ -15,6 +15,14 @@ Tag.init(
     tag_name: {
       type: DataTypes.STRING,
     },
+    // product_id: {
+    //   type: DataTypes,
+    //   allowNull: false,
+    //   references: {
+    //     model: 'product',
+    //     key: 'id'
+    //   }
+    // }
   },
   {
     sequelize,
